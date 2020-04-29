@@ -14,10 +14,15 @@ body {
 .container-fluid {
   padding: 0;
 }
-header.top-header {
+.top-header {
   background-color: #f81d09;
   color: #fff;
   height: 5.9rem;
+}
+.display-on-medium-and-below {
+  background-color: #f81d09;
+  color: #fff;
+  height: 3rem;
 }
 sup.degree-sign:before {
   content: '\00b0';
@@ -56,4 +61,42 @@ sup.degree-sign:before {
 }
 .bold-weather-info {
   font-weight: 700;
+}
+.mobile-logo-ontainer {
+  width: 15%;
+  object-fit: contain;
+  max-height: 100%;
+}
+
+@media screen and (max-width: 640px) {
+  .country-weather {
+    display: none;
+  }
+  .mobile-logo-ontainer {
+    width: 20%;
+    object-fit: contain;
+    max-height: 100%;
+  }
+}
+@media screen and (max-width: 575px) {
+  .hide-on-mobile {
+    display: none;
+  }
+  .mobile-logo-ontainer {
+    width: 25%;
+    object-fit: contain;
+    max-height: 100%;
+  }
+}
+
+@media screen and (max-width: 379px) {
+  .sign-in,
+  .subscribe-link {
+    font-size: 0.8rem;
+  }
+  .mobile-logo-ontainer {
+    width: 32%;
+    object-fit: contain;
+    max-height: 100%;
+  }
 }
