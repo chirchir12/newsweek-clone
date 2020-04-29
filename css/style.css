@@ -10,3 +10,50 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
+.container-fluid {
+  padding: 0;
+}
+header.top-header {
+  background-color: #f81d09;
+  color: #fff;
+  height: 5.9rem;
+}
+sup.degree-sign:before {
+  content: '\00b0';
+  color: #fff;
+}
+.remove-padding-margin-styl {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.remove-text-decoration {
+  text-decoration: none;
+  color: #fff;
+}
+.bold-font {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.bold-font:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.subscribe-link {
+  padding: 0.3rem 0.5rem;
+  background-color: #fff;
+  color: #f72210;
+}
+.subscribe-link:hover {
+  background-color: #fff;
+  color: #f72210;
+}
+.logo-container {
+  height: auto;
+  width: 10rem;
+}
+.bold-weather-info {
+  font-weight: 700;
+}

@@ -7,6 +7,10 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+    <script
+      src="https://kit.fontawesome.com/b9edfb7622.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Bootstrap CSS -->
     <link
@@ -21,7 +25,49 @@
   </head>
   <body>
     <div class="wrapper">
-      <div class="container-fluid bg-primary"><h1>some data</h1></div>
+      <div class="container-fluid">
+        <header class="top-header d-flex align-items-end">
+          <div class="weather-dte flex-fill pb-3">
+            <ul
+              class="weather-info remove-padding-margin-styl d-flex ml-5 mb-3"
+            >
+              <li class="mr-2 bold-weather-info">
+                <i class="fas fa-cloud"></i>
+              </li>
+              <li class="mr-2 bold-weather-info">
+                22 <sup class="degree-sign"></sup>
+              </li>
+              <li class="bold-weather-info">
+                Nairobi, KE <i class="fas fa-chevron-right"></i>
+              </li>
+            </ul>
+            <span class="date-info d-inline-block ml-5">Wed, Apr 29, 2020</span>
+          </div>
+          <div class="center-logo flex-fill logo-container">
+            <img
+              src="./images/Newsweek_Logo.svg"
+              class="img-fluid"
+              alt="logo"
+            />
+          </div>
+          <div class="signin-subscribe flex-fill">
+            <ul
+              class="remove-padding-margin-styl d-flex justify-content-end pr-3 pb-4"
+            >
+              <li>
+                <a class="remove-text-decoration bold-font" href="#">SIGN IN</a>
+              </li>
+              <li class="ml-3">
+                <a
+                  class="remove-text-decoration bold-font subscribe-link"
+                  href="#"
+                  >SUBSCRIBE <i class="fas fa-chevron-right"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </header>
+      </div>
     </div>
 
     <script
