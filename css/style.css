@@ -138,6 +138,9 @@ sup.degree-sign:before {
   color: #f81d09;
   text-decoration: none;
 }
+.debate-link:hover {
+  color: black;
+}
 .opinion-author {
   font-weight: 600;
 }
@@ -195,6 +198,19 @@ sup.degree-sign:before {
   z-index: 3;
 }
 
+.subscribe-icon {
+  flex: none;
+  display: block;
+  width: 29px;
+  height: 28px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
+    no-repeat #f72210;
+  margin-right: 10px;
+}
+.card-subscribe-width {
+  width: 90%;
+}
+
 @media screen and (max-width: 640px) {
   .country-weather {
     display: none;
@@ -225,5 +241,17 @@ sup.degree-sign:before {
     width: 32%;
     object-fit: contain;
     max-height: 100%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .opinion-container .col-2 {
+    max-width: 6%;
+  }
+  .debate-section .col-3,
+  .latest-news-container .col-3 {
+    max-width: 10%;
+  }
+  .card-subscribe-width {
+    width: 50%;
   }
 }
