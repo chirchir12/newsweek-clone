@@ -126,6 +126,22 @@ sup.degree-sign:before {
   text-align: center;
   font-weight: bold;
 }
+.artile-title {
+  font-weight: 700;
+  display: inline-block;
+}
+.opinion-article-link {
+  display: block;
+  color: black;
+  font-weight: 600;
+}
+.opinion-article-link:hover {
+  color: #f81d09;
+  text-decoration: none;
+}
+.opinion-author {
+  font-weight: 600;
+}
 
 @media screen and (max-width: 640px) {
   .country-weather {
