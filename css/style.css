@@ -68,6 +68,19 @@ sup.degree-sign:before {
   max-height: 100%;
 }
 
+.form-control-input {
+  width: 70px;
+  border: 0;
+}
+.form-control-input:focus {
+  outline: none;
+}
+.nav-link {
+  color: #333;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
 @media screen and (max-width: 640px) {
   .country-weather {
     display: none;
