@@ -200,7 +200,7 @@ sup.degree-sign:before {
 
 .subscribe-icon {
   flex: none;
-  display: block;
+  display: inline-block;
   width: 29px;
   height: 28px;
   background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
@@ -209,8 +209,23 @@ sup.degree-sign:before {
 }
 .card-subscribe-width {
   width: 90%;
+  min-width: 272px;
+  background-color: #e0e0e0;
 }
-
+.subscribe-header {
+  width: 80%;
+}
+.sign-up-newsletter {
+  font-weight: 900;
+}
+.update-preference {
+  color: black;
+  font-weight: 700;
+}
+.update-preference:hover {
+  text-decoration: none;
+  color: #000;
+}
 @media screen and (max-width: 640px) {
   .country-weather {
     display: none;
@@ -253,5 +268,6 @@ sup.degree-sign:before {
   }
   .card-subscribe-width {
     width: 50%;
+    background-color: #e0e0e0;
   }
 }
