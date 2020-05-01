@@ -226,6 +226,25 @@ sup.degree-sign:before {
   text-decoration: none;
   color: #000;
 }
+.bold-font-title {
+  font-weight: 700;
+}
+.news-source {
+  font-weight: 700;
+  bottom: 0;
+  left: 0;
+  color: #f72210;
+  padding: 0.2rem 1rem;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.news-week-title-feature {
+  color: #000;
+}
+.news-week-title-feature:hover {
+  text-decoration: underline;
+  text-decoration-color: #f72210;
+  color: #000;
+}
 @media screen and (max-width: 640px) {
   .country-weather {
     display: none;
