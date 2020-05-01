@@ -237,6 +237,15 @@ sup.degree-sign:before {
   padding: 0.2rem 1rem;
   background-color: rgba(255, 255, 255, 0.7);
 }
+.pandemic-heroes-title {
+  font-size: 0.7rem;
+  background-color: rgba(190, 236, 237, 0.7);
+}
+.pandemic-heroes-title:hover {
+  background-color: #000;
+  opacity: 0.9;
+  color: #fff;
+}
 .news-week-title-feature {
   color: #000;
 }
@@ -244,6 +253,15 @@ sup.degree-sign:before {
   text-decoration: underline;
   text-decoration-color: #f72210;
   color: #000;
+}
+.heroes-pandemic-title-link:hover {
+  text-decoration: none;
+}
+.more-stories-container .card-title {
+  font-size: 1rem;
+}
+.more-stories-container .card-text {
+  font-size: 0.9rem;
 }
 @media screen and (max-width: 640px) {
   .country-weather {
