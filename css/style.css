@@ -9,6 +9,12 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+.body-background {
+  background-color: #f4f5f6;
+}
+.row {
+  background-color: #fff;
+}
 
 .container-fluid {
   padding: 0;
@@ -127,7 +133,9 @@ sup.degree-sign:before {
 }
 .artile-title {
   font-weight: 700;
-  display: inline-block;
+  padding-top: 0.3rem;
+  display: block;
+  background-color: #fff;
 }
 .opinion-article-link {
   display: block;
@@ -263,6 +271,41 @@ sup.degree-sign:before {
 .more-stories-container .card-text {
   font-size: 0.9rem;
 }
+.in-the-magazine .card-title.see-all-features {
+  background-color: #eee;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.in-the-magazine .card-title.see-all-features:hover {
+  background-color: #bdbdbd;
+}
+.image-background-in-the-magazine {
+  display: block;
+  background-image: url(../images/donald-trump.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 100%;
+  height: 90%;
+  width: 100%;
+}
+.bg-danger-bg {
+  background-color: #f72210;
+  color: #fff;
+}
+.feature-name {
+  color: #f72210;
+}
+.magazine-card-title {
+  font-weight: 700;
+}
+.main-title-content {
+  font-weight: 700;
+}
+.title-red-bold {
+  color: #f72210;
+  font-weight: 700;
+}
+
 @media screen and (max-width: 640px) {
   .country-weather {
     display: none;
