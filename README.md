@@ -10,7 +10,7 @@
 ![screenshot](images/screenshots/fullscreen.png)
 
 # medium screen 
-![screenshot](images/screenshots/medium-screen.png)
+![screenshot](images/screenshots/medium.png)
 
 # small screen 
 ![screenshot](images/screenshots/small-screen.png)
