@@ -7,7 +7,7 @@
 > dummy images and content have been used repeatedly because the focus on this project is responsive design
 > We used semantic HTML to structure the markup 
 # large screen 
-![screenshot](images/screenshots/fulldcreen.png)
+![screenshot](images/screenshots/fullscreen.png)
 
 # medium screen 
 ![screenshot](images/screenshots/medium-screen.png)
