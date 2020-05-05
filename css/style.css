@@ -24,7 +24,7 @@ body {
   height: 3rem;
 }
 
-sup.degree-sign:before {
+sup.degree-sign::before {
   content: '\00b0';
   color: #fff;
 }
@@ -76,6 +76,12 @@ sup.degree-sign:before {
   max-height: 100%;
 }
 
+.navigation-bar li a {
+  padding: 3px 0;
+  text-align: center;
+  font-weight: bold;
+}
+
 .navigation .row li a {
   margin-left: 0;
   padding-left: 0;
@@ -94,8 +100,8 @@ sup.degree-sign:before {
 
 .navigation ul::before {
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: 0;
+  right: 0;
   content: '';
   display: block;
   width: 100px;
@@ -129,12 +135,6 @@ sup.degree-sign:before {
 
 .navigation-bar li {
   list-style: none;
-}
-
-.navigation-bar li a {
-  padding: 3px 0;
-  text-align: center;
-  font-weight: bold;
 }
 
 .artile-title {
@@ -264,6 +264,7 @@ sup.degree-sign:before {
   font-weight: 700;
   font-size: 0.8rem;
 }
+
 .text-padding {
   padding: 0 7px;
   margin-right: 7px;
@@ -530,6 +531,7 @@ sup.degree-sign:before {
     background-color: #f4f5f7;
     border-top: 1px solid #e2e2e2;
   }
+
   .latest-news-container .col-3 {
     min-width: 90px;
   }
