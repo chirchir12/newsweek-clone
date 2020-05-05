@@ -9,18 +9,7 @@ body {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-}
-
-.body-background {
-  background-color: #f4f5f6;
-}
-
-.row {
-  background-color: #fff;
-}
-
-.container-fluid {
-  padding: 0;
+  overflow: hidden;
 }
 
 .top-header {
@@ -273,6 +262,11 @@ sup.degree-sign:before {
 
 .bold-font-title {
   font-weight: 700;
+  font-size: 0.8rem;
+}
+.text-padding {
+  padding: 0 7px;
+  margin-right: 7px;
 }
 
 .news-source {
@@ -333,7 +327,7 @@ sup.degree-sign:before {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100% 100%;
-  height: 90%;
+  height: 15rem;
   width: 100%;
 }
 
@@ -526,5 +520,17 @@ sup.degree-sign:before {
     object-fit: contain;
     max-height: 100%;
     margin-bottom: 0.3rem;
+  }
+
+  .breaker::after {
+    content: '';
+    display: block;
+    height: 18px;
+    margin-top: 0.5rem;
+    background-color: #f4f5f7;
+    border-top: 1px solid #e2e2e2;
+  }
+  .latest-news-container .col-3 {
+    min-width: 90px;
   }
 }
