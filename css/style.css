@@ -76,6 +76,10 @@ sup.degree-sign::before {
   max-height: 100%;
 }
 
+.mobile-logo-ontainer.footer-logo {
+  width: 17%;
+}
+
 .navigation-bar li a {
   padding: 3px 0;
   text-align: center;
@@ -231,7 +235,8 @@ sup.degree-sign::before {
   display: inline-block;
   width: 29px;
   height: 28px;
-  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
+    no-repeat #f72210;
   margin-right: 10px;
 }
 
@@ -451,10 +456,6 @@ sup.degree-sign::before {
   opacity: 0.7;
 }
 
-.container-fluid.header-container {
-  padding: 0;
-}
-
 @media screen and (max-width: 640px) {
   .country-weather {
     display: none;
@@ -495,6 +496,10 @@ sup.degree-sign::before {
 @media screen and (max-width: 991px) {
   .opinion-container .col-2 {
     max-width: 6%;
+  }
+
+  .mobile-logo-ontainer.footer-logo {
+    width: 30%;
   }
 
   .debate-section .col-3,
