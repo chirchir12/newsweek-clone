@@ -78,6 +78,10 @@ sup.degree-sign::before {
   min-width: 200px;
 }
 
+.footer a {
+  font-size: 0.9rem;
+}
+
 .navigation-bar li a {
   padding: 3px 0;
   text-align: center;
@@ -290,9 +294,6 @@ sup.degree-sign::before {
   color: #000;
 }
 
-.footer a {
-  font-size: 0.9rem;
-}
 .news-week-title-feature:hover {
   text-decoration: underline;
   text-decoration-color: #f72210;
