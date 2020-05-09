@@ -1,6 +1,5 @@
 body {
   background-color: #f4f5f6;
- 
 }
 
 .wrapper {
@@ -9,7 +8,6 @@ body {
   max-width: 1312px;
   position: relative;
   margin: 0 auto;
-  
 }
 
 .top-header {
@@ -35,7 +33,6 @@ sup.degree-sign::before {
   list-style: none;
 }
 
-
 .remove-text-decoration {
   color: #fff;
 }
@@ -49,8 +46,6 @@ sup.degree-sign::before {
   font-weight: 700;
   font-size: 1.1rem;
 }
-
-
 
 .subscribe-link {
   padding: 0.3rem 0.5rem;
@@ -192,20 +187,19 @@ sup.degree-sign::before {
 
 .debate-discussions::before,
 .debate-discussions::after {
-    content: '';
-    display: block;
-    background-color: #d9d9d9;
-    height: 1px;
-    position: absolute;
-    top: 12px;
-    left: 0;
-    right: 0;
-  }
-  
-  .debate-discussions::after {
-    top: 15px;
-   
-  }
+  content: '';
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  top: 12px;
+  left: 0;
+  right: 0;
+}
+
+.debate-discussions::after {
+  top: 15px;
+}
 
 .participant-name {
   padding-top: 1.3rem;
@@ -233,7 +227,8 @@ sup.degree-sign::before {
   display: inline-block;
   width: 29px;
   height: 28px;
-  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
+    no-repeat #f72210;
   margin-right: 10px;
 }
 
@@ -296,7 +291,7 @@ sup.degree-sign::before {
 }
 
 .footer a {
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 .news-week-title-feature:hover {
   text-decoration: underline;
@@ -463,7 +458,7 @@ sup.degree-sign::before {
 
   .mobile-logo-ontainer {
     width: 20%;
-    min-width:20%;
+    min-width: 20%;
     object-fit: contain;
     max-height: 100%;
   }
